@@ -57,6 +57,12 @@ body {
   left: 0;
 }
 
+#announcements {
+  display: flex;
+  align-items: center;
+  background-color: aquamarine;
+}
+
 #nav-bar {
   display: flex;
   align-items: center;
@@ -85,7 +91,7 @@ body {
 
 #nav-bar li a.active::after {
   content: "";
-  width: 30%;
+  width: 50%;
   height: 2px;
   background: #222;
   position: absolute;
@@ -93,13 +99,26 @@ body {
   left: 20px;
 }
 
-#home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 400px;
-}
-
 #headlines {
   margin-right: 500px;
+}
+
+#home {
+  margin-top: 200px;
+  text-align: center;
+}
+
+#home .inv-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+#home .ammount {
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 0;
 }
