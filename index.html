@@ -42,13 +42,39 @@
         ready to be bought, ranging from different famous TCGs.
       </p>
     </section>
-    <div class="shops">
-      <a href="ptcgp.html"
-        ><img src="assets/ptcgp_logo.png" alt="Pokemon-TCG-Pocket"
-      /></a>
-      <img src="assets/MTG_logo.png" alt="MTG_logo" />
-      <img src="assets/Grow_a_Garden_logo.png" alt="Grow_a_Garden_logo" />
-    </div>
+
+    <section id="shops">
+      <div class="shop-container">
+        <div class="shop">
+          <span>
+            <a href="ptcgp.html">
+              <img
+                class="active"
+                src="assets/ptcgp_logo.png"
+                alt="Pokemon-TCG-Pocket"
+              />
+            </a>
+          </span>
+
+          <div class="p-active">
+            <p>Note: In-Game cards only</p>
+          </div>
+        </div>
+        <div class="shop">
+          <img class="inactive" src="assets/MTG_logo.png" alt="MTG_logo" />
+          <p>Coming Soon!</p>
+        </div>
+        <div class="shop">
+          <img
+            class="inactive"
+            src="assets/Grow_a_Garden_logo.png"
+            alt="Grow_a_Garden_logo"
+            style="opacity: 65%"
+          />
+          <p>Not sure about this</p>
+        </div>
+      </div>
+    </section>
 
     <script src="script.js"></script>
   </body>

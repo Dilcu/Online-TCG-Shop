@@ -108,19 +108,37 @@ body {
   text-align: center;
 }
 
-.shops {
+#shops {
+  text-align: center;
+}
+
+#shops .p-active {
+  display: none;
+}
+
+#shops span:hover + .p-active {
+  display: block;
+}
+
+#shops .shop-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
 }
 
-.shops img {
+#shops .active:hover {
+  border: 8px solid #465b52;
+}
+
+#shops .active,
+#shops .inactive {
   width: 200px;
   height: 200px;
   border: 2px solid black;
   border-radius: 10px;
   padding: 20px 20px;
+  transition: 0.2s ease;
 }
 
 #home .inv-container {
