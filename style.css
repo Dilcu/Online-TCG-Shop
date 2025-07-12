@@ -90,7 +90,17 @@ body {
 
 footer {
   margin-top: 50px;
+  margin-bottom: 20px;
   text-align: center;
+}
+
+footer a {
+  color: #0f0a0a;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: #153bb8;
 }
 
 #header {
