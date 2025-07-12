@@ -56,7 +56,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding: 0px 300px;
+  padding: 100px 300px;
 }
 
 #buttons .buy-button,
@@ -196,6 +196,18 @@ footer a:hover {
   border-radius: 10px;
   padding: 20px 20px;
   transition: 0.2s ease;
+}
+
+#home .current-shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+#home .current-shop img {
+  width: 50%;
+  height: 50%;
 }
 
 #home .inv-container {
