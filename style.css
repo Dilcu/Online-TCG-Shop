@@ -2,25 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Comic Sans MS";
 }
 
 h1 {
   font-size: 50px;
   line-height: 64px;
-  color: #222;
+  color: #0f0a0a;
 }
 
 h2 {
   font-size: 46px;
   line-height: 54px;
-  color: #222;
+  color: #0f0a0a;
 }
 
 h4 {
   font-size: 20px;
   line-height: 54px;
-  color: #222;
+  color: #0f0a0a;
 }
 
 h6 {
@@ -50,7 +50,46 @@ body {
   width: 100%;
   height: 500px;
 }
+
+#buttons {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 0px 300px;
+}
+
+#buttons .buy-button,
+#buttons .sell-button {
+  color: #0f0a0a;
+  font-weight: bold;
+  background: rgb(255, 165, 0);
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+.pur-button {
+  color: #0f0a0a;
+  font-weight: bold;
+  background: rgb(243, 247, 10);
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+#buttons .buy-button:hover,
+#buttons .sell-button:hover {
+  background: rgb(255, 115, 0);
+}
+#buttons .pur-button:hover {
+  background: rgb(189, 191, 9);
+}
+
 footer {
+  margin-top: 50px;
   text-align: center;
 }
 
